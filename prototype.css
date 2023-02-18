@@ -1,0 +1,145 @@
+.search{
+    height: 20px;
+    width: 20px;
+    margin-top: 25px;
+}
+
+.logo {
+    align-items: left;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.recherche{
+    width: 40%;
+    height: 20%;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.contact{
+    margin-left: 40px;
+}
+
+.contact_label{
+    margin-top: 25px;
+    font-size: 15px;
+    color: gray;
+}
+
+.connex_enreg{
+    color:black;
+}
+
+.connex_enreg:hover{
+    color:darkmagenta;
+}
+
+header{
+    display: flex;
+    block-size: 50px;
+    height: 70px;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    border: solid;
+    color: gray;
+}
+
+.case_login{
+    display: grid;
+    color: black;
+    grid-template-rows: 30px 30px;
+    margin-left: 250px;
+    
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding: 10px 10px;
+    background-color: lightgray;
+    text-align: center;
+    border: solid;
+    border-radius: 20%;
+    font-size: small;
+    text-size-adjust: 20%;
+    height: 60%;
+    color: black;
+}
+
+h1{
+    font-family:Courier;
+    margin-top: 12px;
+    margin-left: 10px;
+    width:20%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 15% auto ;
+}
+
+aside{
+    text-align: left;
+    height: 100%;
+    grid-column: 1/1;
+    grid-row: 1/2;
+    margin-left: 5px;
+}
+
+.new_com_zone{
+    display: grid;
+    grid-template-rows: 30px 70px;
+    grid-template-columns: 800px 10%;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    margin-left: 40px;
+    border: solid;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.new_com {
+    width: 800px;
+    margin-bottom: 10px;
+    height: 60px;
+    text-align: left;
+    resize: none;
+    grid-row: 2/2
+}
+
+.post_button{
+    width: 60px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    border-radius: 20%;
+}
+
+.post_button:active{
+    background-color: darkmagenta;
+}
+
+li{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    margin-right: 5px;
+    border: solid;
+}
+
+.add_contact{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.add_contact:active{
+    background-color: darkmagenta;
+}
+
+html{
+    background-color: #2E2A29;
+    color: white;
+}
