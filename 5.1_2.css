@@ -1,6 +1,5 @@
 form{
     display: grid;
-    /*grid-template-columns: 150px 150px;*/
     border: solid;
     border-radius: 20%;
     width: 300px;
@@ -41,7 +40,7 @@ input {
 }
 
 html{
-    background-image: url("file:C:/Users/iorda/OneDrive/Desktop/background2.jpg");
+    background-image: url("background2.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
