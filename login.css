@@ -1,0 +1,86 @@
+form{
+    display: grid;
+    border: solid;
+    border-radius: 20%;
+    width: 300px;
+    height: 250px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 20px;
+    color: white;
+  }
+
+.login{
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    border-color: transparent;
+    outline: transparent;
+    border-bottom: 1px solid darkmagenta;
+    color: white;
+}
+
+.mdp{
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    border-color: transparent;
+    outline: transparent;
+    border-bottom: 1px solid darkmagenta;
+    color: white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+html{
+    background-image: url("background2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.connex{
+    margin-right: 10px;
+    border-radius: 100px;
+    height: 40px;
+    border-color: white;
+    background-color: darkmagenta;
+    color: white;
+}
+
+.annul{
+    margin-left: 10px;
+    border-radius: 100px;
+    height: 40px;
+    border-color: white;
+    background-color: darkmagenta;
+    color: white;
+}
+
+.oublimdp{
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.enreg{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.enreg:hover{
+    color: darkmagenta;
+}
+
+.oublimdp:hover{
+    color: darkmagenta;
+}
