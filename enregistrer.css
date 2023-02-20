@@ -1,7 +1,7 @@
 form{
     display: grid;
     border: solid;
-    border-radius: 15%;
+    border-radius: 10%;
     color: white;
     width: 400px;
     margin-left: auto;
@@ -38,6 +38,7 @@ html{
 .enreg{
     border-radius: 20px;
     border-color: white;
+    color: white;
     background-color: darkmagenta;
     height: 30px;
     width: 200px;
