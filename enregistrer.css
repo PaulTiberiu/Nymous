@@ -7,6 +7,7 @@ form{
     margin-left: auto;
     margin-right:auto;
     padding: 20px;
+    backdrop-filter: blur(5px);
   }
 
 h1{
