@@ -1,31 +1,32 @@
-form{
-    display: grid;
+div{
     border: solid;
-    border-radius: 10%;
-    color: white;
-    width: 400px;
+    border-radius: 15%;
+    width: 300px;
+    height: 250px;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 150px;
     padding: 20px;
+    color: white;
     backdrop-filter: blur(5px);
+    text-align: center;
   }
 
-h1{
-    color: white;
-    text-align: center;
-}
-
-input {
-    margin-bottom: 20px;
-}
-
-.nom{
-    text-align: left;
+.login{
+    height: 20px;
+    border: none;
     background-color: transparent;
     border-color: transparent;
     outline: transparent;
     border-bottom: 1px solid darkmagenta;
     color: white;
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    -webkit-text-stroke: 1px black;
 }
 
 html{
@@ -36,16 +37,16 @@ html{
     background-size: cover;
 }
 
-.enreg{
-    border-radius: 20px;
-    border-color: white;
-    color: white;
+.login{
     background-color: darkmagenta;
+    color: white;
+    border: solid;
+    border-radius: 20px;
+    margin: 20px;
     height: 30px;
-    width: 200px;
-    margin-left: 100px;
+    width: 100px;
 }
 
-.enreg:hover{
+.login:hover{
     color: darkgrey;
 }

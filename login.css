@@ -57,6 +57,10 @@ html{
     color: white;
 }
 
+.connex:hover{
+    color: darkgrey;
+}
+
 .annul{
     margin-left: 10px;
     border-radius: 100px;
