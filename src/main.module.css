@@ -1,0 +1,73 @@
+.contact{
+    margin-left: 40px;
+}
+
+.connex_enreg{
+    color:black;
+}
+
+.connex_enreg:hover{
+    color:darkmagenta;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 15% auto ;
+}
+
+.aside{
+    text-align: left;
+    height: 100%;
+    grid-column: 1/1;
+    grid-row: 1/2;
+    margin-left: 5px;
+}
+
+.new_com_zone{
+    display: grid;
+    grid-template-rows: 30px 70px;
+    grid-template-columns: 800px 10%;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    margin-left: 40px;
+    border: solid;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.new_com {
+    width: 800px;
+    margin-bottom: 10px;
+    height: 60px;
+    text-align: left;
+    resize: none;
+    grid-row: 2/2
+}
+
+.post_button{
+    width: 60px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    border-radius: 20%;
+}
+
+.post_button:active{
+    background-color: darkmagenta;
+}
+
+li{
+    display: grid;
+    grid-template-columns: 95% 5%;
+    margin-right: 5px;
+    border: solid;
+}
+
+/*
+html{
+    background-color: #2E2A29;
+    color: white;
+}
+*/

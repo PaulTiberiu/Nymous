@@ -1,0 +1,53 @@
+.form1{
+    display: grid;
+    border: solid;
+    border-radius: 10%;
+    color: black;
+    width: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+  }
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.nom{
+    text-align: left;
+    background-color: transparent;
+    border-color: transparent;
+    outline: transparent;
+    border-bottom: 1px solid darkmagenta;
+    color: black;
+}
+
+/*
+html{
+    background-image: url("background2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+
+.enreg{
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    background-color: darkmagenta;
+    height: 30px;
+    width: 200px;
+    margin-left: 100px;
+}
+
+.enreg:hover{
+    color: darkgrey;
+}
