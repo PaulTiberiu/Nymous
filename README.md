@@ -8,6 +8,8 @@ In order to develop this website, we used:
 - Cloudinary
 - MongoDb
 - Express
+- HTML
+- CSS
 ## Functionalities
 - Create account
 - Login
