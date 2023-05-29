@@ -10,6 +10,7 @@ In order to develop this website, we used:
 - Express
 - HTML
 - CSS
+- Node
 ## Functionalities
 - Create account
 - Login
