@@ -1,0 +1,161 @@
+.logo {
+    margin-top: 70px;
+    align-items: left;
+    height: 100px;
+}
+
+.header{
+    display:flex;
+    height: 150px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.nom_user{
+    margin-top: 60px;
+    /*margin-left: 60px;*/
+    font-size: 40px;
+}
+
+.ajout_ami{
+    margin-left: 100px;
+    width: 40px;
+    height: 30px;
+    margin-top: 70px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: #F92F60;
+    color: white;
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.ajout_ami:hover{
+    color: darkgray;
+}
+
+.contact{
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 250px auto;
+    color: white;
+    margin-left: 10px;
+    margin-top: 70px;
+}
+
+.aside{
+    margin-top: 40px;
+    width: 250px;
+    box-shadow: inset 6px 6px 10px 0 rgba(249,47,96,0.7),
+                inset -6px -6px 10px 0 rgba(249, 47, 96,0.7);
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+}
+
+.friend_list{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-decoration-line: underline;    
+}
+
+.article{
+    color: white;
+    margin-left: 80px;
+    white-space: pre-line;
+}
+
+.list{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.acceptRequest{
+    background-color: #F92F60;
+    color: white;
+    border: white;
+    border: solid 0.5px;
+    border-radius: 2px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.acceptRequest:hover{
+    color: darkgray;
+}
+
+.deleteFriend{
+    background-color: #F92F60;
+    color: white;
+    border-color: white;
+    border: solid 0.5px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.deleteFriend:hover{
+    color: darkgray;
+}
+
+.photo_profil{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+    object-fit: cover;
+}
+
+.divdiv{
+    display: grid;
+    grid-template-columns: 60px auto;
+    margin-left: 70px;
+}
+
+.div_images{
+    display: grid;
+    grid-template-rows: 150px 50px;
+}
+
+.form{
+    display: grid;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    grid-template-rows: 45px auto;
+}
+
+.submit{
+    width: 60px;
+    height: 20px;
+    margin-left: 50px;
+    color: white;
+    background-color: #F92F60;
+    border: solid 0.5px;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    color: darkgray;
+}
+
+.photo_profil_2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 30px;
+    object-fit: cover;
+    margin-right: 100px;
+}

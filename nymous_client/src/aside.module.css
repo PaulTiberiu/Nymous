@@ -1,0 +1,24 @@
+.div{
+    margin-top: 50px;
+    /*border: solid 1.5px;
+    border-color: #F92F60;*/
+    width: 220px;
+    box-shadow: inset 6px 6px 10px 0 rgba(249,47,96,0.7),
+                inset -6px -6px 10px 0 rgba(249, 47, 96,0.7);
+    border: transparent;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.p_p{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.p{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+}

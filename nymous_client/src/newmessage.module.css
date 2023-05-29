@@ -1,0 +1,41 @@
+.new_com_zone{
+    display: grid;
+    /*grid-template-columns: 1000px 20px;*/
+    /*border: solid;*/
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    margin-left: 70px;
+}
+
+.new_com {
+    grid-column: 1/2;
+    margin-top: 40px;
+    width: 90%;
+    height: 40%;
+    text-align: left;
+    resize: none;
+    font-family: cursive;
+    font-size: 14px;
+    margin-left: 5%;
+}
+
+.post_button{
+    border-radius: 5%;
+    border-color: white;
+    height: 40%;
+    width: 60px;
+    grid-column: 2/2;
+    color: white;
+    background-color: #F92F60;
+    margin-top: 40px;
+}
+
+.post_button:hover{
+    color: gray;
+}
+
+.comm{
+    margin-left: 5%;
+    margin-top: 2%;
+}

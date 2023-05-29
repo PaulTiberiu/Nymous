@@ -1,0 +1,64 @@
+.new_com_zone{
+    display: grid;
+    grid-template-rows: 30px 70px;
+    grid-template-columns: 800px 20%;
+    margin-left: 40px;
+    border: solid;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.contact{
+    margin-left: 40px;
+}
+
+.connex_enreg{
+    color:black;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 15% auto ;
+    color: white;
+    white-space: pre-line;
+}
+
+.aside{
+    text-align: left;
+    height: 100%;
+    grid-column: 1/1;
+    grid-row: 1/2;
+    margin-left: 5px;
+}
+
+.new_com {
+    width: 800px;
+    margin-bottom: 10px;
+    height: 60px;
+    text-align: left;
+    resize: none;
+    grid-row: 2/2;
+    margin-top: 100px;
+}
+
+.post_button{
+    width: 60px;
+    height: 40px;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    border-radius: 20%;
+}
+
+.ul{
+    box-shadow: inset 6px 6px 10px 0 rgba(0,0,0,0.2),
+                inset -6px -6px 10px 0 rgba(0,0,0,0.2);
+    border: transparent;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+.section{
+    margin-left: 100px;
+}

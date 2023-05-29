@@ -1,0 +1,101 @@
+.recherche{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin-left: 17%;
+}
+
+
+.h1{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.h1:hover{
+    transform: scale(1.1);
+}
+
+.header{
+    display: flex;
+    height: 70px;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    /*
+    border: solid;
+    border-color: transparent;
+    border-bottom: 1px solid #F92F60;
+    border-left: 1px solid #F92F60;
+    */
+}
+
+.case_login{
+    display: grid;
+    grid-template-rows: 30px 30px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+    padding: 10px 10px;
+    background-color: lightgray;
+    text-align: center;
+    border-radius: 5%;
+    font-size: small;
+    text-size-adjust: 20%;
+    height: 60%;
+    width: 7%;
+}
+
+
+.image{
+    height: 20px;
+    object-fit: cover;
+}
+
+.image:hover{
+    transform: scale(1.3);
+}
+
+.search{
+    margin-top: 25px;
+    height: 25px;
+    width: 28px;
+    margin-left: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.contact_label{
+    margin-top: 30px;
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+}
+
+.label{
+    color: white;
+    margin-top: 30px;
+    font-size: 13px;
+    margin-left: 3px;
+}
+
+.contact_only{
+    margin-top: 25px;
+    height: 25px;
+    width: 28px;
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.barre{
+    width: 50%;
+    margin-top: 25px;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.connex_enreg:hover{
+    color: darkgrey;
+}
