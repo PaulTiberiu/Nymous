@@ -4,6 +4,8 @@ import MainPage from './MainPage';
 import NavigationPanel from './NavigationPanel';
 import reportWebVitals from './reportWebVitals';
 
+//test push/pull
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
